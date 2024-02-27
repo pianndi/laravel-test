@@ -1,0 +1,25 @@
+/* body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+ */
+.profile {
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border-radius: 50%;
+  max-width: 300px;
+}
+
+.card-img-top {
+  aspect-ratio: 16/9;
+  object-fit: cover;
+}
+
+article {
+  border-bottom: 2px solid silver;
+}
+h2 a, article a {
+  text-decoration: none;
+}
